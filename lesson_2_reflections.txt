@@ -1,9 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
+
 Git creates an empty repository and creates the .git file. We need to do it to 
 create a Git repo and start tracking the files in the repo for changes.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
 Staging area is an intermediate area where you add files to be committed to the repo.
 Working directory holds all the files you are currently working on but you are not
 tracking these files. A repo has files that you are tracking and staging area is where
@@ -12,6 +14,11 @@ group files that need to be committed as a unit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+As and when you make changes to a file and add it to the staging area, the changes
+haven't been committed yet. You then need to make some related code changes to other
+files in your working directory. You make the changes and add the files to the staging
+area and now you commit all the changes as one logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
