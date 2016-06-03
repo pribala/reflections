@@ -41,5 +41,8 @@ the branches from the tip which is at master now. The diagram makes the flow eas
 We can trace the parent of each commit in either branches and the effect of merging the two branches
 using the diagram.
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+If there are no conflicts automatic merges are efficient and quick. When there are 
+conflicts they do need to be resolved manually before merging.
