@@ -35,5 +35,11 @@ easy to trace the commit history of each branch and if any commit is unreachable
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging the two branches is that now we have all the changes made in one branch 
+available in the master along with the entire commit history. We can get to any commit on both 
+the branches from the tip which is at master now. The diagram makes the flow easy to understand.
+We can trace the parent of each commit in either branches and the effect of merging the two branches
+using the diagram.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
