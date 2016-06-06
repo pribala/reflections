@@ -5,3 +5,14 @@ When we want to make our work accessible to public, when we want to collaborate 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 We might only want to pull selective files or pull to a different branch than on remote, in which case manual pull 
 gives us more control.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork: It is a copy of a repository. Forking a repository allows you to experiment with changes without affecting the original project.
+
+Forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea
+
+Clone : It is a copy of a remote repository onto your local computer and allows you to sync projects between the locations.
+
+Branch : When you create a branch in your project, you're creating an environment where you can try out new ideas. Changes you make on 
+a branch won't affect the master branch, so you can try out new features and your branch won't be merged until it's ready.
