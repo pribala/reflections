@@ -16,3 +16,8 @@ Clone : It is a copy of a remote repository onto your local computer and allows 
 
 Branch : When you create a branch in your project, you're creating an environment where you can try out new ideas. Changes you make on 
 a branch won't affect the master branch, so you can try out new features and your branch won't be merged until it's ready.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Whenever any changes are made to the remote repository, having a copy of the last known state of the remote locally can help us
+to figure out if the local and remote are in sync by running git status.  
