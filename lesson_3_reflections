@@ -20,4 +20,10 @@ a branch won't affect the master branch, so you can try out new features and you
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Whenever any changes are made to the remote repository, having a copy of the last known state of the remote locally can help us
-to figure out if the local and remote are in sync by running git status.  
+to figure out if the local and remote are in sync by running git status.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+We would use emails or in-person meetings to collaborate without Git or Github. Using Github would be easier as data can be kept in sync
+between local and remote repository  with ease. Branches can be used to work on different features without affecting the master and then
+merged in when ready. Pull requests can be used to get feedbacks.
